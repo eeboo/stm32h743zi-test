@@ -1,0 +1,12 @@
+[package]
+authors = ["Yuhei Nakata <yuh.nakata@gmail.com>"]
+edition = "2018"
+readme = "README.md"
+name = "stm32h743zi-test"
+version = "0.1.0"
+
+[dependencies]
+cortex-m = "0.6.2"
+cortex-m-rt = "0.6.12"
+stm32h7xx-hal = {version = "0.6.0", features = ["stm32h743"]}
+panic-halt = "0.2.0"
